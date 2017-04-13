@@ -1,0 +1,178 @@
+body
+{
+  margin: 0px;
+}
+
+.container
+{
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.nav
+{
+  font-family: Arvo;
+  background-color: #E44424;
+  width: 100%;
+  height: 30%;
+  color: white;
+  margin-top: -20px;
+  text-align: center;
+  font-family: Arvo;
+}
+
+.nav h1
+{
+  padding-top: 15px;
+}
+
+
+.boxheading
+{
+  margin-top: -30px;
+}
+
+h2
+{
+  color: black;
+  font-family: arvo;
+  text-align: center;
+  margin-top: 6%;
+}
+
+.boxes
+{
+  margin-left: 200px;
+}
+.box
+{
+  font-family: arvo;
+  width: 120px;
+  height: 100px;
+  border: 3px solid black;
+  display: inline-block;
+  text-align: center;
+}
+
+.box p
+{
+  font-size: 18px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  transform: rotate(315deg);
+}
+
+.inputdiv
+{
+  margin-top: 50px;
+  margin-right: 380px;
+  margin-left: 380px;
+  height: 180px;
+  color: white;
+  font-weight: bold;
+  background-color: #EAB126;
+  border-radius: 6px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+input
+{
+  width: 250px;
+  height: 28px;
+  border-radius: 6px;
+  border:none;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-family: arvo;
+  font-weight: bold;
+}
+
+label
+{
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 20px;
+}
+
+.date
+{
+  margin-top: 18px;
+}
+
+.key
+{
+  background-color: black;
+  color: white;
+  display: none;
+  margin-top: 35px;
+}
+
+.key p
+{
+  margin-left: -20px;
+}
+
+.redCircle
+{
+  -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+    background-color: red;
+    border:1px solid red;
+    width:30px;
+    height:30px;
+    display: inline-block;
+    margin-left: 120px;
+}
+
+.yellowCircle
+{
+  -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+    background-color: yellow;
+    border:1px solid yellow;
+    width:30px;
+    height:30px;
+    display: inline-block;
+    margin-left: 120px;
+
+}
+
+.greenCircle
+{
+  -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+    background-color: green;
+    border:1px solid green;
+    width:30px;
+    height:30px;
+    display: inline-block;
+    margin-left: 120px;
+}
+
+.firstInputEntered
+{
+  background-color: red;
+  color: white;
+  border: 3px solid black;
+}
+.secondInputEntered
+{
+  background-color: yellow;
+  color: white;
+  border: 3px solid black;
+}
+
+.matchingDaysEntered
+{
+  background-color: green;
+  color: white;
+  border: 3px solid black;
+}
